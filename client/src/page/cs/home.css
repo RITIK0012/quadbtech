@@ -1,0 +1,398 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.home_page{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    margin:10px 0px ;
+    align-items: center;
+}
+.heading{
+    font-weight: 400;
+    font-size: 28px;
+    color:#707c7d;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.top_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+}
+.minute{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.minute h4{
+    font-weight: 400;
+    font-size: 40px;
+    color:#5dc7c2;
+    margin-bottom: 5px;
+}
+.minute h5{
+    color: #707c7d;
+}
+.hour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hour h4{
+    font-weight: 400;
+    font-size: 40px;
+    color:#5dc7c2;
+    margin-bottom: 5px;
+}
+.hour h5{
+    color: #707c7d;
+}
+.best_price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.best_price h2{
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.day h4{
+    font-weight: 400;
+    font-size: 40px;
+    color:#5dc7c2;
+    margin-bottom: 5px;
+}
+.day h5{
+    color: #707c7d;
+}
+.days{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.days h4{
+    font-weight: 400;
+    font-size: 40px;
+    color:#5dc7c2;
+    margin-bottom: 5px;
+}
+.days h5{
+    color: #707c7d;
+}
+.bottom_heading{
+    color: #707c7d;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 16px;
+}
+.bottom_section{
+    display:flex;
+    flex-direction: column;
+    width:95%;
+    margin: auto;
+    align-items: center;
+}
+.stock_heading{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    padding:10px 0px;
+    margin: auto;
+}
+.platform{
+    font-size: 20px;
+    font-weight: 500;
+    color: #707c7d;
+    
+}
+.last_traded_price{
+    font-size: 20px;
+    font-weight: 500;
+    color: #707c7d;
+}
+.buy_sell_price{
+    font-size: 20px;
+    font-weight: 500;
+    color: #707c7d;
+}
+.difference{
+    font-size: 20px;
+    font-weight: 500;
+    color: #707c7d;
+}
+.savings{
+    font-size: 20px;
+    font-weight: 500;
+    color: #707c7d;
+}
+.list{
+    width:100%;
+    padding:10px 0px;
+    margin: 10px 0px;
+}
+.stock_value{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    border:1px solid #2e3241;
+    border-radius:10px;
+    padding:10px 0px;
+    margin: 0px 0px 20px 0px;
+    background: #2e3241;
+}
+.platform_value{
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+    padding-left:15px;
+
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.last_traded_price_value{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+    padding-left:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.buy_sell_price_value{
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+    padding-left:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.difference_value{
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+    padding-left:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.savings_value{
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+    padding-right:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+@media (min-width: 280px) and (max-width: 600px) {
+    .heading{
+        font-size: 14px;
+    }
+    .minute h4{
+        font-size: 14px;
+    }
+    .minute h5{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .hour h4{
+        font-size: 14px;
+    }
+    .hour h5{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .day h4{
+        font-size: 14px;
+    }
+    .day h5{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .days h4{
+        font-size: 14px;
+    }
+    .days h5{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .best_price h2{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .bottom_heading{
+        font-weight: 300;
+        font-size: 8px;
+    }
+    
+    .platform{
+        font-size: 12px;
+        font-weight: 500;
+        color: #707c7d;
+        
+    }
+    .last_traded_price{
+        font-size: 12px;
+        font-weight: 500;
+        color: #707c7d;
+
+    }
+    .buy_sell_price{
+        font-size: 12px;
+        font-weight: 500;
+        color: #707c7d;
+
+    }
+    .difference{
+        font-size: 12px;
+        font-weight: 500;
+        color: #707c7d;
+
+    }
+    .savings{
+        font-size: 12px;
+        font-weight: 500;
+        color: #707c7d;
+
+    }
+    .platform_value{
+        font-size: 10px;
+        font-weight: bold;
+        color:white;
+        padding-left:0px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    .last_traded_price_value{
+        font-size: 10px;
+        font-weight: bold;
+        color:white;
+        line-height:0;
+        padding-left:20px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    .buy_sell_price_value{
+        font-size: 10px;
+        font-weight: bold;
+        color:white;
+        padding-left:20px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    .difference_value{
+        font-size: 10px;
+        font-weight: bold;
+        color:white;
+        line-height: 0;
+        padding-left:20px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    .savings_value{
+        font-size: 10px;
+        font-weight: bold;
+        color:white;
+        padding-right:20px;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+}
+@media (min-width: 601px) and (max-width: 768px) {
+    .heading{
+        font-size: 14px;
+    }
+    .minute h4{
+        font-size: 14px;
+    }
+    .minute h5{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .hour h4{
+        font-size: 14px;
+    }
+    .hour h5{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .day h4{
+        font-size: 14px;
+    }
+    .day h5{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .days h4{
+        font-size: 14px;
+    }
+    .days h5{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .best_price h2{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .bottom_heading{
+        font-weight: 300;
+        font-size: 8px;
+    }
+}
+@media (min-width: 769px) and (max-width: 960px) {
+    .heading{
+        font-size: 22px;
+    }
+    .minute h4{
+        font-size: 40px;
+    }
+    .minute h5{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .hour h4{
+        font-size: 40px;
+    }
+    .hour h5{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .day h4{
+        font-size: 40px;
+    }
+    .day h5{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .days h4{
+        font-size: 40px;
+    }
+    .days h5{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .best_price h2{
+        font-weight: bold;
+        font-size: 60px;
+    }
+    .bottom_heading{
+        font-weight: 300;
+        font-size: 12px;
+    }
+}
